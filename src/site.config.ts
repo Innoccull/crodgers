@@ -36,11 +36,11 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Home",
 	},
 	{
-		path: "/consulting/",
+		path: "/crodgers/consulting/",
 		title: "Consulting",
 	},
 	{
-		path: "/posts/",
+		path: "/crodgers/posts/",
 		title: "Blog",
 	},
 ];
