@@ -1,0 +1,25 @@
+---
+import { Image } from "astro:assets";
+import aboutImg from "@/assets/about-astro.png";
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About</h1>
+		<p>
+			I am an experienced Senior Business Analyst specialising in data and analytics. I help organisations make better use of their data.
+		</p>
+		<p>I can help with:</p>
+		<ul class="list-inside list-disc">
+			<li>Identifying opportunities in your organisation to leverage data and analytics</li>
+			<li>Implementing robust governance processes across data and analytics in your organisation</li>
+			<li>Processing data with Pythonge</li>
+		</ul>
+	</div>
+</PageLayout>
